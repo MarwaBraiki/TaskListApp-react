@@ -1,0 +1,31 @@
+/* src/styles/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('../assets/background.jpg') no-repeat center center fixed;
+  background-size: contain; /* Assure que l'image de fond est entièrement visible */
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Assure que le conteneur prend toute la hauteur de la fenêtre */
+  padding: 20px;
+}
+
+.title {
+  color: lightgreen;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  position: fixed; /* Positionne le titre de manière fixe */
+  top: 20px; /* Ajuste la position du titre en haut de la page */
+  left: 50%; /* Centre horizontalement */
+  transform: translateX(-50%); /* Centre horizontalement */
+  z-index: 1; /* Assure que le titre est au-dessus des autres éléments */
+}
+
+

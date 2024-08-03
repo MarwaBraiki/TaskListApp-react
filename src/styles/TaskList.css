@@ -1,0 +1,6 @@
+/* src/styles/TaskList.css */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espacement entre les éléments de la liste des tâches */
+}

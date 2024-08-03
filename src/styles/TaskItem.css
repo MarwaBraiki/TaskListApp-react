@@ -1,0 +1,41 @@
+/* src/styles/TaskItem.css */
+.task-item {
+  width: 100%; /* Largeur complète pour chaque tâche */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espace entre le titre et les boutons */
+  padding: 10px; /* Espace intérieur pour chaque tâche */
+  border-bottom: 1px solid #ddd; /* Ligne séparatrice pour les tâches */
+  box-sizing: border-box; /* Inclut padding et border dans la largeur et la hauteur */
+}
+
+.task-item span {
+  color: black; /* Couleur du texte des tâches */
+  text-decoration: none; /* Supprime le texte barré pour les tâches non complètes */
+}
+
+.task-item button {
+  padding: 10px 20px; /* Espacement intérieur des boutons */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur en forme de main pour indiquer que le bouton est cliquable */
+  border: none; /* Supprime la bordure par défaut */
+  margin: 0 5px; /* Espace entre les boutons */
+}
+
+.task-item .btn-validate {
+  background-color: green; /* Couleur de fond du bouton de validation */
+  color: white; /* Couleur du texte du bouton de validation */
+}
+
+.task-item .btn-validate:hover {
+  background-color: darkgreen; /* Couleur de fond du bouton au survol */
+}
+
+.task-item .btn-delete {
+  background-color: red; /* Couleur de fond du bouton de suppression */
+  color: white; /* Couleur du texte du bouton de suppression */
+}
+
+.task-item .btn-delete:hover {
+  background-color: darkred; /* Couleur de fond du bouton au survol */
+}

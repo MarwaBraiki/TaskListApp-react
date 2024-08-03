@@ -1,0 +1,28 @@
+/* src/styles/TaskForm.css */
+.task-form {
+  display: flex;
+  align-items: center; /* Centre verticalement les éléments */
+  width: 100%; /* Assure que le formulaire prend toute la largeur disponible */
+  gap: 10px; /* Espace entre le champ de saisie et le bouton */
+}
+
+.task-form input {
+  flex: 1; /* Le champ de saisie prend toute la largeur disponible */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-form button {
+  padding: 10px;
+  background-color: rgb(158, 144, 238);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: darkgreen;
+}
